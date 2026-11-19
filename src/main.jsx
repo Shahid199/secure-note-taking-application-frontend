@@ -11,7 +11,7 @@ class AppErrorBoundary extends React.Component {
   }
 
   componentDidCatch(error) {
-    console.error('Care Guide render error:', error);
+    console.error('secure_note_app render error:', error);
   }
 
   render() {
